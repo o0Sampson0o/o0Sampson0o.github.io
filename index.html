@@ -18,114 +18,130 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav id="navbar">
             <ul>
-                <li><a href="#" style="text-decoration: none;">home</a></li>
-                <li><a href="#" style="text-decoration: none;">about</a></li>
-                <li><a href="#contact" style="text-decoration: none;">contact</a></li>
+                <li><a href="#" style="text-decoration: none;">Home</a></li>
+                <li><a href="#about" style="text-decoration: none;">About</a></li>
+                <li><a href="#contact" style="text-decoration: none;">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="hero">
-            <pre>Hi, I'm </pre>
-            <h1>Sampson</h1>
-            <pre> an experienced web Developer</pre>
+            <div>
+                <a href="#about">Know More</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div>
+                <pre>Hi, I'm </pre>
+                <h1>Sampson</h1>
+                <pre> an experienced web Developer</pre>
+            </div>
         </section>
-        <section>
-            <h1>Why me</h1>
-            <p>I am passionate about creating websites and web
-                applications. I am always looking for new ways to improve my skills and learn new technologies.</p>
-            <p>
-                This page will give you an overview of my experience, skills, and projects. If you have any questions or
-                would like to work together, feel free to contact me. I am always open to new opportunities and
-                collaborations.
-            </p>
-        </section>
-        <section>
-            <h1>Experience</h1>
-            <p>I have been working as a web developer for over 5 years. I have experience with HTML, CSS, JavaScript,
-                PHP, and MySQL. I have worked on a variety of projects, including e-commerce websites, blogs, and
-                web applications.</p>
-            <ol class="card-list" id="experience-card-list">
-                <li>
-                    <div class="header">
-                        <h2>AutoCount</h2>
-                        <img src="https://itsimple.com.my/wp-content/uploads/2020/05/autocount_logo.png"
-                            alt="autocount_logo" />
-                    </div>
-                    <div class=" body">
-                        <p>Web Developer</p>
-                        <p>2019 - 2021</p>
-                        <p>Developed and maintained e-commerce websites and web applications.</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="header">
-                        <h2>Estate Boost Copilot</h2>
-                        <img src="https://drive.usercontent.google.com/download?id=1oLvXrni9aJXZO9ZEIhMX9l2wj0fZfhVh"
-                            alt="estate_boost_copilot_logo" />
-                    </div>
-                    <div class="body">
-                        <p>Web Developer</p>
-                        <p>2017 - 2019</p>
-                        <p>Designed and developed websites and web applications for real estate agents.</p>
-                    </div>
-                </li>
-            </ol>
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>React</li>
-                <li>Express</li>
-                <li>Next.js</li>
-                <li>MySQL</li>
-                <li>PHP</li>
-                <li>C/C++</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Activities</h2>
-            <ul>
-                <li>GitHub</li>
-                <li>Code Force</li>
-                <li>LeetCode</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Highlighted Personal projects</h2>
-            <ul>
-                <li>Portfolio</li>
-                <li>Blog</li>
-                <li>Todo App</li>
-            </ul>
+        <section id="about">
+            <div>
+                <h1>Why me</h1>
+                <p>I am passionate about creating websites and web
+                    applications. I am always looking for new ways to improve my skills and learn new technologies.</p>
+                <p>
+                    If you have any questions or would like to work together, feel free to contact me. I am always open
+                    to new opportunities and collaborations.
+                </p>
+            </div>
+            <div>
+                <h1>Experience</h1>
+                <p>I have been working as a web developer for over 5 years. I have experience with HTML, CSS,
+                    JavaScript,
+                    PHP, and MySQL. I have worked on a variety of projects, including e-commerce websites, blogs, and
+                    web applications.</p>
+                <ol class="card-list" id="experience-card-list">
+                    <li>
+                        <div class="header">
+                            <h2>AutoCount</h2>
+                            <img src="https://itsimple.com.my/wp-content/uploads/2020/05/autocount_logo.png"
+                                alt="autocount_logo" />
+                        </div>
+                        <div class=" body">
+                            <h3>Web Developer ( Intern )</h3>
+                            <p>2019 - 2021</p>
+                            <p>As a Web Development Intern in the Research & Innovation department at AutoCount, I
+                                assist in designing and developing web solutions under the guidance of senior
+                                developers.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="header">
+                            <h2>Estate Boost Copilot</h2>
+                            <img src="https://drive.usercontent.google.com/download?id=1oLvXrni9aJXZO9ZEIhMX9l2wj0fZfhVh"
+                                alt="estate_boost_copilot_logo" />
+                        </div>
+                        <div class="body">
+                            <h3>Web Developer</h3>
+                            <p>2017 - 2019</p>
+                            <p>As a co-founder of Skybot, I have been instrumental in the development and launch of
+                                Estate-Boost-Copilot, an innovative platform designed to streamline real estate
+                                management through advanced automation and AI technologies.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <div>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Node.js</li>
+                    <li>React</li>
+                    <li>Express</li>
+                    <li>Next.js</li>
+                    <li>MySQL</li>
+                    <li>PHP</li>
+                    <li>C/C++</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Activities</h2>
+                <ul>
+                    <li>GitHub</li>
+                    <li>Code Force</li>
+                    <li>LeetCode</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Highlighted Personal projects</h2>
+                <ul>
+                    <li>Portfolio</li>
+                    <li>Blog</li>
+                    <li>Todo App</li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
-        <ul style="display: flex; column-gap: 20px;" id="contact">
-            <li style="display: flex;">
+        <ul id="contact">
+            <li>
                 <a href="https://www.instagram.com/o0sampson0o/" target="_blank"><img
                         src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png"
-                        alt="instagram" width="20" /></a>
+                        alt="instagram" /></a>
             </li>
-            <li style="display: flex;">
+            <li>
                 <a href="https://www.facebook.com/sampson.goh.3" target="_blank"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg" alt="facebook"
-                        width="20"></a>
+                        src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
+                        alt="facebook"></a>
             </li>
-            <li style="display: flex;">
-                <a href="https://mail.google.com/mail/u/0/?fs=1&to=sampsongohengtze@gmail.com&tf=cm"><img
+            <li>
+                <a href=" https://mail.google.com/mail/u/0/?fs=1&to=sampsongohengtze@gmail.com&tf=cm"><img
                         src="https://static.vecteezy.com/system/resources/previews/016/716/465/original/gmail-icon-free-png.png"
-                        alt="gmail" width="20"></a>
+                        alt="gmail"></a>
             </li>
         </ul>
         <p>&copy; 2024 reflection realm</p>
